@@ -1,0 +1,6 @@
+.idea
+.venv
+__pycache__/
+outputs/
+uploads/
+Flask_Scheduling.doc

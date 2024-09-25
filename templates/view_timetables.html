@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">{{ display_name }}</h1>
+<a href="{{ url_for('timetables') }}" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 mb-4 inline-block">Back to Timetable Types</a>
+<input type="text" id="search-input" class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="Search timetables...">
+<ul class="space-y-2" id="timetable-list">
+    {% for name in timetable_names %}
+    <li class="bg-white p-3 rounded shadow flex justify-between items-center">
+        <span>{{ name }}</span>
+        <a href="{{ url_for('show_timetable', timetable_type=timetable_type, timetable_name=name) }}" class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">View Timetable</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('keyup', function() {
+        var filter = searchInput.value.toLowerCase();
+        var timetableList = document.getElementById('timetable-list');
+        var items = timetableList.getElementsByTagName('li');
+        Array.from(items).forEach(function(item) {
+            var text = item.textContent.toLowerCase();
+            item.style.display = text.indexOf(filter) > -1 ? '' : 'none';
+        });
+    });
+});
+</script>
+{% endblock %}

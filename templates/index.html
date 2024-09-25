@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Upload CSV Files</h1>
+{% if error %}
+<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+    {{ error }}
+</div>
+{% endif %}
+<form method="post" enctype="multipart/form-data" class="space-y-6">
+    <div>
+        <label for="instructors_courses" class="block text-lg font-medium">Instructors_Courses.csv:</label>
+        <input type="file" id="instructors_courses" name="instructors_courses" required class="mt-1 block w-full text-gray-700">
+    </div>
+    <div>
+        <label for="backlog" class="block text-lg font-medium">Backlog.csv:</label>
+        <input type="file" id="backlog" name="backlog" required class="mt-1 block w-full text-gray-700">
+    </div>
+    <div>
+        <label for="elective" class="block text-lg font-medium">Elective.csv:</label>
+        <input type="file" id="elective" name="elective" required class="mt-1 block w-full text-gray-700">
+    </div>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Generate Timetable</button>
+</form>
+{% endblock %}

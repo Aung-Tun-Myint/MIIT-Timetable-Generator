@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Generating Timetable</h1>
+<div class="w-full bg-gray-200 rounded-full h-6 mb-4">
+    <div id="progress-bar" class="bg-blue-600 h-6 rounded-full text-center text-white" style="width: 0%;">0%</div>
+</div>
+<p id="status-message" class="text-lg">Starting...</p>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function updateProgress() {
+    fetch("{{ url_for('progress_status') }}")
+        .then(response => response.json())
+        .then(data => {
+            var percentage = data.percentage;
+            var message = data.message;
+            document.getElementById('progress-bar').style.width = percentage + '%';
+            document.getElementById('progress-bar').textContent = percentage + '%';
+            document.getElementById('status-message').textContent = message;
+            if (data.status === 'completed') {
+                window.location.href = "{{ url_for('timetables') }}";
+            } else if (data.status === 'error') {
+                alert('An error occurred: ' + message);
+                window.location.href = "{{ url_for('index') }}";
+            } else {
+                setTimeout(updateProgress, 1000);
+            }
+        });
+}
+document.addEventListener('DOMContentLoaded', function() {
+    updateProgress();
+});
+</script>
+{% endblock %}

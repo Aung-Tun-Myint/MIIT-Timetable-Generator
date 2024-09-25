@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Timetable: {{ timetable_name }}</h1>
+<div class="overflow-x-auto">
+    {{ timetable_html|safe }}
+</div>
+<br>
+
+<a href="{{ url_for('view_timetables', timetable_type=timetable_type) }}" class="bg-gray-300 text-gray-800 px-4 py-2 rounded hover:bg-gray-400 mb-4 inline-block">Back to {{ display_name }}</a>
+{% endblock %}

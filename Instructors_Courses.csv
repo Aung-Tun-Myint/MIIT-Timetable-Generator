@@ -1,0 +1,81 @@
+#,Batch,Course Number,Course Name,Program,Instructor-in-Charge,Section Number,Lecture Hours,Lab Hours,Credits,Remarks,ROOM,CombinedProgram,CombinedSection
+1,BE-2016,CSE 4060,Software Engineering,CSE and ECE,Daw Ohn Mar Lwin (OML),,4,0,4,Elective,208,True,False
+2,BE-2016,CSE 5001,Object Oriented Analysis and Design,CSE and ECE,Dr. Than Thida Hnin (TTH),,3,0,3,Elective ,208,True,False
+3,BE-2016,CSE 5005,Data Mining,CSE and ECE,Dr. Phyu Thwe (PT),,3,0,3,Elective,208,True,False
+4,BE-2016,CSE 5008,Image Processing,CSE and ECE,Dr. Kay Thinzar Phue (KTP),,3,0,3,Elective,208,True,False
+5,BE-2016,CSE 5009,Artificial Intelligence,CSE and ECE,Dr. Thandar Htwe (TH),,3,0,3,Elective,208,True,False
+6,BE-2016,CSE 5012,Machine Learning I,CSE and ECE,Dr. Zar Chi Su Su Hlaing (ZCSSH),,3,0,3,Elective,208,True,False
+7,BE-2016,CSE 5022,Computer & IT Systems Security,CSE and ECE,Daw Moh Moh Nyunt Aung (MMNA),,3,0,3,Elective,208,True,False
+8,BE-2016,CSE 5026,Software Testing,CSE and ECE,Dr. Khine Zar Thwe (KZT),,3,0,3,Elective,209,True,False
+9,BE-2016,CSE 5027,Data Analytics,CSE and ECE,Daw Mar Mar Soe (MMS),,3,0,3,Elective,209,True,False
+10,BE-2016,CSE 5028,Natural Language Processing,CSE and ECE,Dr. Zar Zar Linn (ZZL),,3,0,3,Elective,209,True,False
+11,BE-2016,CSE 5035,Computer Oriented Numerical Methods,CSE and ECE,Dr. Aye Aye Thant (AAT),,3,0,3,Elective,209,True,False
+12,BE-2016,CSE 5036,Robotics I,CSE and ECE,Dr. Kyawt Kyawt Htay (KKH),,3,0,3,Elective,407,True,False
+13,BE-2016,ECE 5009,FPGA Based System Design Laboratory ,ECE,Daw Khaing Su Wai (KSW),,0,6,3,Elective,211,False,False
+14,BE-2016,ECE 5012,Advanced Control Systems Laboratory,CSE and ECE,Daw Khine Thazin Min (KTM),,0,6,3,Elective,406,True,False
+15,BE-2016,MATH 5001,Probability and Statistics,CSE and ECE,Daw May Thant Zin (MTZ),,2,0,2,Elective,211,True,False
+16,BE-2016,LANG 5010,Technical Communication,CSE and ECE,U Thein Zaw Myint (TZM),,3,0,3,,211,True,False
+17,BE-2016,HSS C014,Principle of Management,CSE and ECE,Daw Cho Cho Lwin (CCL),,1,0,1,,209,True,False
+18,BE-2017,CSE 4010,Operating Systems,CSE and ECE,Daw Mar Mar Soe (MMS),,4,0,4,,314,True,False
+19,BE-2017,CSE 4020,Design & Analysis of Algorithms,CSE,Daw Me Me Khaing (MMK),,3,0,3,,314,False,False
+20,BE-2017,CSE 4030,Computer Networks II,CSE,Daw Moh Moh Nyunt Aung (MMNA),,3,0,3,,314,False,False
+21,BE-2017,CSE 4031,Computer Networks II Lab,CSE,Daw Moh Moh Nyunt Aung (MMNA),,0,2,1,,314,False,False
+22,BE-2017,ECE 4010,Embedded Systems I,CSE and ECE,Dr. Hsu Mon Maung (HMM),,3,0,3,,314,True,False
+23,BE-2017,ECE 4011,Embedded Systems I Lab,CSE and ECE,Dr. Hsu Mon Maung (HMM),,0,2,1,,314,True,False
+24,BE-2017,ECE 4020,Digital Signal Processing,CSE and ECE,Dr. Khine Zar Thwe (KZT),,4,0,4,,314,True,False
+25,BE-2017,ECE 4030,Wireless Communication,ECE,Dr. Hsu Mon Maung (HMM),,3,0,3,,307,False,False
+26,BE-2017,ECE 4040,Wireless Sensor Networks,ECE,Daw Khine Thazin Min (KTM),,3,0,3,,307,False,False
+27,BE-2017,ECE 4041,Wireless Sensor Networks Lab,ECE,Daw Khine Thazin Min (KTM),,0,2,1,,307,False,False
+28,BE-2017,HSS C013,Social & Business Etiquette,CSE and ECE,Dr. Sin Thi Yar Myint (STYM),,1,0,1,,314,True,False
+29,BE-2018,CSE 3010,Data Structures & Algorithms,CSE,Dr. Aye Aye Kyaw (AAK),,4,0,4,,210,False,False
+30,BE-2018,CSE 3020,Database Systems I,CSE,Daw Phyu Phyu Khaing (PPK),,4,0,4,,210,False,False
+31,BE-2018,ECE 3010,Microprocessors & Interfacing,CSE and ECE,Dr. Nu War (NW),,3,0,3,,210,True,False
+32,BE-2018,ECE 3011,Microprocessors & Interfacing Lab,CSE and ECE,Dr. Nu War (NW),,0,4,2,,210,True,False
+33,BE-2018,ECE 3020,Signals & Systems,CSE and ECE,Dr. Nu War (NW),,3,0,3,,210,True,False
+34,BE-2018,ECE 3030,Electronics II,ECE,Daw Khaing Su Wai (KSW),,4,0,4,,211,False,False
+35,BE-2018,ECE 3031,Electronics II Lab,ECE,Daw Khaing Su Wai (KSW),,0,2,1,,313,False,False
+36,BE-2018,ECE 3060,Data Structures & Algorithms,ECE,Dr. Aye Aye Kyaw (AAK),,4,0,4,,211,False,False
+37,BE-2018,LANG 3010,English V,CSE and ECE,Daw Khaing Zar Tun (KhZT),,2,0,2,,210,True,False
+38,BE-2018,MATH 3010,Mathematics V,CSE and ECE,Daw Moe Thandar (MT),,4,0,4,,210,True,False
+39,BE-2019,CSE 2020,Computer Organization,CSE and ECE,U Soe Paing (SP),,4,0,4,,203,True,False
+40,BE-2019,CSE 2030,Web Application Development,CSE,Dr. Yin Win Chit (YWC),,4,0,4,,203,False,False
+41,BE-2019,CSE 2040,Programming IV,CSE,Dr. Sin Thi Yar Myint (STYM),,5,0,5,,203,False,False
+42,BE-2019,ECE 2040,"Sensors, Actuators & Mechatronics",ECE,Dr. Hsu Mon Maung (HMM),,4,0,4,,209,False,False
+43,BE-2019,ECE 2050,Electronics I,ECE,U Win Tun (WT),,4,0,4,,209,False,False
+44,BE-2019,ECE 2051,Electronics I Lab,ECE,U Win Tun (WT),,0,2,1,,313,False,False
+45,BE-2019,LANG 2020,English IV,CSE and ECE,Daw Thida Kyaw (TK),,2,0,2,,203,True,False
+46,BE-2019,MATH 2020,Mathematics IV,CSE and ECE,Daw Wai Zin Phyo (WZP),,4,0,4,,203,True,False
+47,BE-2019,PHY 2020,Physics IV,CSE and ECE,Dr. Kay Thwe Kywe Aye (KTKA),,4,0,4,,203,True,False
+48,BE-2019,LAB C001,Lab Course 1,ECE,Daw Moh Moh Wai (MMW),,0,2,1,,309,False,False
+49,BE-2019,LAB C001,Lab Course 1,CSE,Daw Wint War Phoo (WWP),,0,2,1,,309,False,False
+50,BE-2019,PHY 1011,Physics I Lab,CSE and ECE,Daw Wint War Phoo (WWP),,0,2,1,,309,True,False
+51,BE-2021,MATH 2010,Mathematics III,CSE,Daw Myat Moe Khaing (MMKh),Section 1,4,0,4,2 sections,201,False,False
+52,BE-2021,MATH 2010,Mathematics III,CSE,Daw Myat Moe Khaing (MMKh),Section 2,4,0,4,2 sections,202,False,False
+53,BE-2021,ECE 2010,Basic Electric Circuits,CSE,Daw Nay Kyi Tun (NKT),Section 1,4,0,4,2 sections,201,False,False
+54,BE-2021,ECE 2010,Basic Electric Circuits,CSE,Daw Nay Kyi Tun (NKT),Section 2,4,0,4,2 sections,202,False,False
+55,BE-2021,ECE 2011,Basic Electric Circuits Lab,CSE,Daw Nay Kyi Tun (NKT),Section 1,0,2,1,2 sections,312,False,False
+56,BE-2021,ECE 2011,Basic Electric Circuits Lab,CSE,Daw Nay Kyi Tun (NKT),Section 2,0,2,1,2 sections,312,False,False
+57,BE-2021,LANG 2010,English III,CSE,Daw Thi Thi Tun (TTT),Section 2,2,0,2,2 sections,202,False,False
+58,BE-2021,LANG 2010,English III,CSE,Daw Wint Yamone Aung (WYA),Section 1,2,0,2,2 sections,201,False,False
+59,BE-2021,CSE 2010,Programming III,CSE,Dr. Aye Aye Kyaw (AAK),Section 1,5,0,5,2 sections,201,False,False
+60,BE-2021,CSE 2010,Programming III,CSE,Dr. Kay Thinzar Phue (KTP),Section 2,5,0,5,2 sections,202,False,False
+61,BE-2021,PHY 2010,Physics III,CSE,Dr. Myo Myo Aung (MMA),Section 1,4,0,4,2 sections,201,False,False
+62,BE-2021,PHY 2010,Physics III,CSE,Dr. Myo Myo Aung (MMA),Section 2,4,0,4,2 sections,202,False,False
+63,BE-2021,ECE 2020,Digital Design,CSE,U Soe Paing (SP),Section 1,4,0,4,2 sections,201,False,False
+64,BE-2021,ECE 2020,Digital Design,CSE,U Soe Paing (SP),Section 2,4,0,4,2 sections,202,False,False
+65,BE-2021,ECE 2021,Digital Design Lab,CSE,U Win Tun (WT),Section 1,0,2,1,2 sections,311,False,False
+66,BE-2021,ECE 2021,Digital Design Lab,CSE,U Win Tun (WT),Section 2,0,2,1,2 sections,311,False,False
+67,BE-2022,CSE 1020,Foundations of Web Programming,CSE,Daw Yin Myo Kay Khine Thaw (YMKKT),,4,0,4,,301,False,False
+68,BE-2022,CSE 1020,Foundations of Web Programming,ECE,Dr. Theingi Htike (THt),,4,0,4,,302,False,False
+69,BE-2022,CSE 1030,Programming II,CSE,Daw Khin Myat Nwe Win (KMNW),,5,0,5,,301,False,False
+70,BE-2022,CSE 1030,Programming II,ECE,Dr. Kyawt Kyawt Htay (KKH),,5,0,5,,302,False,False
+71,BE-2022,HSS C011,Myanmar Language & Culture,CSE,Dr. Win Win Than (WWT),,2,0,1,,301,False,False
+72,BE-2022,HSS C011,Myanmar Language & Culture,ECE,Dr. Win Win Than (WWT),,2,0,1,,302,False,False
+73,BE-2022,LANG 1020,English II,CSE,Daw Thida Kyaw (TK),,2,0,2,,301,False,False
+74,BE-2022,LANG 1020,English II,ECE,Daw Thandar (Td),,2,0,2,,302,False,False
+75,BE-2022,MATH 1020,Mathematics II,CSE,Dr. Aye Aye Mon (AAM),,6,0,6,,301,False,False
+76,BE-2022,MATH 1020,Mathematics II,ECE,Dr. Aye Aye Mon (AAM),,6,0,6,,302,False,False
+77,BE-2022,PHY 1020,Physics II,ECE,Daw Moh Moh Wai (MMW),,4,0,4,,302,False,False
+78,BE-2022,PHY 1020,Physics II,CSE,Daw Wint War Phoo (WWP) ,,4,0,4,,301,False,False
+79,BE-2022,LAB C001,Lab Course 1,ECE,Daw Moh Moh Wai (MMW),,0,2,1,,309,False,False
+80,BE-2022,LAB C001,Lab Course 1,CSE,Daw Wint War Phoo (WWP) ,,0,2,1,,309,False,False

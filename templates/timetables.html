@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Generated Timetables</h1>
+<div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
+    Timetable generation completed successfully.
+</div>
+<ul class="space-y-4">
+    {% for timetable_type, filename in timetable_files.items() %}
+    <li class="bg-white p-4 rounded shadow">
+        <h2 class="text-2xl font-semibold">{{ timetable_type }}</h2>
+        <div class="mt-2">
+            <a href="{{ url_for('view_timetables', timetable_type=timetable_type.lower().split()[0]) }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 mr-2">View</a>
+            <a href="{{ url_for('download_file', filename=filename) }}" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Download</a>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
